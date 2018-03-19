@@ -31,11 +31,29 @@
         </section>
         </body>
 
-        <style>
-
-                body {
-                    background-image: url(images/circles.png);
-                    border-color: #dddddd;
-                }
-                </style>
+        
+<style>
+    
+    body {
+        background-image: url(images/circles.png);
+        border-color: #dddddd;
+    }
+    
+    /* On screens that are 992px wide or less, the background color is blue */
+    @media screen and (max-width: 768px) {
+        body {
+            background-color: blue;
+            color: white;
+        }
+    }
+    
+    /* On screens that are 600px wide or less, the background color is olive */
+    @media screen and (max-width: 640px) {
+        body {
+            background-color: olive;
+            color: white;
+        }
+    }
+    </style>
+                
 </html>
