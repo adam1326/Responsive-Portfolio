@@ -29,6 +29,23 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     line-height: 1.6;
+    
+}
+
+.sidebar {
+    float:right;
+    position: relative;
+    background-color: white;
+    height: 180px;
+    width: 250px;
+    margin-right: 290px;
+}
+
+.social {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    
 }
 
 h1 {
@@ -47,6 +64,8 @@ h1 {
 h2 {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1px;
+    font-size: 22px;
 }
 
 h4 {
@@ -60,7 +79,7 @@ h4 {
 .adam {
     float: left;
     position: relative;
-    margin-right: 20px;
+    margin: 0px 0px 0px 0px;
     
 }
 
@@ -90,7 +109,7 @@ h4 {
 #paragraph {
     float: center;
     padding: 200px;
-    margin: 10px 20px 15px;
+    margin: 0px 0px 15px;
     background-color: white;
     width: 960px;
     height: 400px;
@@ -99,19 +118,20 @@ h4 {
 }
 
 #box {
-    width: 960px;
+    width: 600px;
     height: 600px;
-    border: 25px;
+    border: 20px;
     padding: 30px;
-    margin: 25px 100px 20px 250px;
+    
     float: left;
     background-color: #ffffff;
     border-color: #dddddd;
+    margin-left: 250px;
 }
 
 .box1 {
     float: left;
-    margin: 0px 20px 20px 200px;
+    margin: 0px 20px 20px 125px;
     
     
 
@@ -129,8 +149,8 @@ img {
 
 
 .container {
-    width: 960px;
-    height: 600px;
+    width: 600px;
+    height: 550px;
     border: 25px;
     padding: 50px;
     margin: 20px 100px 20px;
