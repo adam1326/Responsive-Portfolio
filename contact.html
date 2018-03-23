@@ -1,86 +1,76 @@
 <!DOCTYPE html>
-<html>
-    <head>
-
-        <meta charset="UTF-8">
-        <title>
-            Portfolio
-        </title>
-            <link rel = "stylesheet" type = "text/css" href = "css/style.css" >
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-       <body>                        
-       
-        
-        
-           <div class="container">
-               <h2>Contact</h2>
-
-               <form action="action_page.php">
-                   
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="John Smith">
-                    
-                    <label for="email">Email</label>
-                    <input type="text" id="email" name="email" placeholder="example@gmail.com">
-
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
-
-                    <button type="submit" form="form1" value="Submit">Submit</button>
-                                      
-
-               </form>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel = "stylesheet" type = "text/css" href = "css/reset.css">
+    <link rel = "stylesheet" type = "text/css" href = "css/style.css">
+    <title>Responsive Portfolio</title>
+</head>
+<body>
+    <div class="container-head">
+            <section id="head">
+                    <h1>Adam McCain</h1>
+                    </section>              
+               
             
-            </div>
-            <div class="sidebar">
-                    <div class="panel panel-default">
-                        <h2>Connect With Me</h2>
-                        <hr>
-                        <a href="https://github.com/adam1326"><img src="images/github-icon.png" class="social" alt="Github"></a>
-                        <a href="https://www.linkedin.com/in/adam-mccain-58617549/"><img src="images/linkedin.jpg" class="social" alt="linkedin"></a>
-                        <a href="https://stackoverflow.com/users/9389284/adam1326"><img src="images/stackoverflow.png" class="social" alt="Stackoverflow"></a>
-                    </div>
-                </div>
-
-
-
-            <style>
-    
-                    body {
-                        background-image: url(images/circles.png);
-                        border-color: #dddddd;
-                    }
-
-                       @media only screen and (max-width: 980px) {
-        body {
-            float: left;
-            background-color: green;
-            color: white;
-        }
-    }
-
-    
-    @media only screen and (max-width: 768px) {
-        body {
-            float: left;
-            background-color: blue;
-            color: white;
-        }
-    }
-    
-
-    @media only screen and (max-width: 640px) {
-        body {
-            float: left;
-            background-color: olive;
-            color: white;
-        }
-    }
+            <nav class="menu">
+                <section id="header">
+                <ul>
+                        <div class="topnav">
+                                <a class="active" href="main.html"></a>
+                                <li><a href="index.html" target="main">About</a></li>
+                                <li><a href="portfolio.html" target="main">Portfolio</a></li>
+                                <li><a href="contact.html" target="main">Contact</a></li>
+                            </div>
+            
+                </ul>
+                </section>
+            </nav>
+        
+        
+        
+            </ul>
+            </section>
+        </nav>
+    </div>
+    <div class="main-container1">
+        <div class="row"><h2>Contact</h2></div>
+        <div class="row">   
+            <form action="action_page.php">
                    
-                    </style>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="John Smith">
+                
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="example@gmail.com">
 
-                 
-       </body>        
-       
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+                <button type="submit" form="form1" value="Submit">Submit</button>
+                                  
+
+           </form>
+        </div>
+        <div class="row">
+            <div class="sidebar">
+                <div class="panel panel-default">
+                    <h2>Connect With Me</h2>
+                    <hr>
+                    <a href="https://github.com/adam1326"><img src="images/github-icon.png" class="social" alt="Github"></a>
+                    <a href="https://www.linkedin.com/in/adam-mccain-58617549/"><img src="images/linkedin.jpg" class="social" alt="linkedin"></a>
+                    <a href="https://stackoverflow.com/users/9389284/adam1326"><img src="images/stackoverflow.png" class="social" alt="Stackoverflow"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container-footer"> <center><h4>Copyright &copy;</h4></center></div>
+</body>
 </html>
