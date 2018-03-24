@@ -233,7 +233,7 @@ container {
 
     }
 
-     @media only screen and (max-width: 980px) {
+     @media only screen and (min-width: 980px) {
         body {
             float: left;
             background-color: green;
@@ -242,7 +242,7 @@ container {
     }
 
     
-    @media only screen and (max-width: 768px) {
+    @media only screen and (min-width: 768px) {
         body {
             float: left;
             background-color: blue;
@@ -251,7 +251,7 @@ container {
     }
     
 
-    @media only screen and (max-width: 640px) {
+    @media only screen and (min-width: 640px) {
         body {
             float: left;
             background-color: olive;
