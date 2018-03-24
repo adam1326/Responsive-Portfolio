@@ -232,7 +232,7 @@ container {
 
     }
 
-    @media (max-width:980px){
+    @media screen and  (max-width:980px){
         body {
             max-width: 100%;
             background-color: green;
@@ -261,7 +261,7 @@ container {
         }
     }
 
-    @media (max-width:768px){
+    @media screen and  (max-width:768px){
         body {
             max-width: 100%;
             background-color: pink;
@@ -290,7 +290,7 @@ container {
         }
     }
 
-    @media (max-width:640px){
+    @media screen and (max-width:640px){
         body {
             max-width: 100%;
             background-color: rgb(219, 19, 19);
