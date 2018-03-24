@@ -232,9 +232,9 @@ container {
 
     }
 
-    @media screen and  (max-width:980px){
+    /* @media screen and  (max-width:980px){
         body {
-            max-width: 100%;
+            max-width: 60%;
             background-color: green;
             
         }
@@ -260,8 +260,7 @@ container {
             width: auto;
         }
     }
-
-    @media screen and  (max-width:768px){
+        @media screen and  (max-width:768px){
         body {
             max-width: 100%;
             background-color: pink;
@@ -269,16 +268,16 @@ container {
         }
         
         .main-container {
-            width: auto;
+            width: 50%;
         }
         .main-container1 {
-            width: auto;
+            width: 50%;
         }
         .container-head {
-            width: auto;
+            width: 50%;
         }
         .container {
-            width: auto;
+            width: 50%;
         }
         img {
             max-width: 60%;
@@ -286,7 +285,7 @@ container {
         p {
             line-height: 50%;
             float: none;
-            width: auto;
+            width: 50%;
         }
     }
 
@@ -297,16 +296,16 @@ container {
             
         }
         .main-container {
-            width: auto;
+            width: 50%;
         }
         .main-container1 {
-            width: auto;
+            width: 50%;
         }
         .container-head {
-            width: auto;
+            width: 50%;
         }
         .container {
-            width: auto;
+            width: 50%;
         }
         img {
             max-width: 60%;
@@ -314,12 +313,6 @@ container {
         p {
             line-height: 50%;
             float: none;
-            width: auto;
+            width: 50%;
         }
-    }
-
-
-
-
-
-
+    } */
