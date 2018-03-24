@@ -232,26 +232,47 @@ container {
 
     }
 
-    @media handheld and (max-width: 960px),
-
-    screen and (max-width: 960px), 
-    
-    only screen and (min-device-width : 768px) and (max-device-width : 1024px),
-    
-    only screen and (min-device-width : 320px) and (max-device-width : 480px),
-    
-        
-    only screen and (min-device-pixel-ratio : 1.5)
-    
-    {
-         /*Styles for non desk-tops*/
-         /*You Only Need to put styles you want to change in here*/
-         img{width:90%;}
-         body {float: left;
+    @media (max-width:980px){
+        body {
+            max-width: 100%;
             background-color: green;
+            
+        }
+        img {
+            max-width: 60%;
+        }
+        p {
+            line-height: 50%;
         }
     }
 
+    @media (max-width:768px){
+        body {
+            max-width: 100%;
+            background-color: pink;
+            
+        }
+        img {
+            max-width: 60%;
+        }
+        p {
+            line-height: 50%;
+        }
+    }
+
+    @media (max-width:640px){
+        body {
+            max-width: 100%;
+            background-color: rgb(219, 19, 19);
+            
+        }
+        img {
+            max-width: 60%;
+        }
+        p {
+            line-height: 50%;
+        }
+    }
 
 
 
