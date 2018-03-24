@@ -238,11 +238,26 @@ container {
             background-color: green;
             
         }
+        
+        .main-container {
+            width: auto;
+        }
+        .main-container1 {
+            width: auto;
+        }
+        .container-head {
+            width: auto;
+        }
+        .container {
+            width: auto;
+        }
         img {
             max-width: 60%;
         }
         p {
             line-height: 50%;
+            float: none;
+            width: auto;
         }
     }
 
@@ -252,11 +267,26 @@ container {
             background-color: pink;
             
         }
+        
+        .main-container {
+            width: auto;
+        }
+        .main-container1 {
+            width: auto;
+        }
+        .container-head {
+            width: auto;
+        }
+        .container {
+            width: auto;
+        }
         img {
             max-width: 60%;
         }
         p {
             line-height: 50%;
+            float: none;
+            width: auto;
         }
     }
 
@@ -266,11 +296,25 @@ container {
             background-color: rgb(219, 19, 19);
             
         }
+        .main-container {
+            width: auto;
+        }
+        .main-container1 {
+            width: auto;
+        }
+        .container-head {
+            width: auto;
+        }
+        .container {
+            width: auto;
+        }
         img {
             max-width: 60%;
         }
         p {
             line-height: 50%;
+            float: none;
+            width: auto;
         }
     }
 
